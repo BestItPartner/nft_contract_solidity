@@ -1,8 +1,8 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x6BE98b2A9E0325d38CDDe0D1329E4B5c6d877D9C",
-    "txHash": "0xab8f7ef08aa83905e3eaeeffe1305d7e70608057322e721f5c90b3d850cee816"
+    "address": "0x38e9B03092890454f411aEFC5562c3808F2a1cc4",
+    "txHash": "0xc3097d2b600aef3b1f8bfe1fa75df3f0157f1abae39df3d3bd1d5c31a3c39a30"
   },
   "proxies": [
     {
@@ -383,6 +383,11 @@
     {
       "address": "0x2727f9c24990302ee4416d5E003048bA2d934383",
       "txHash": "0x623e5b182ce75521b4e577ef6c04e0b1b1d8925efae0e2f84204205277dc9f40",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbD550255170dc8834CDe4bfdAdC70A2286b52198",
+      "txHash": "0x217b0e16bff9c9ac25e842779576d7c291582e0238a0616437d2f9fb321d4686",
       "kind": "transparent"
     }
   ],
@@ -894,6 +899,194 @@
             "label": "mapping(uint256 => struct NFTT.TokenMeta)"
           },
           "t_struct(TokenMeta)76_storage": {
+            "label": "struct NFTT.TokenMeta",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "uri",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "sale",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "c72577abf324ddf0ee4d9b84f306686a4e161a71be708c0e90f73bf0572f4828": {
+      "address": "0xDb518ACE64d6709cE77f52f398d1e310b3490017",
+      "txHash": "0xabe703eabd3c832e12b2ca667989334ad6c1ecf8f74b6c1990df9bf6fcf170c9",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:26"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:30"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:24"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:27"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_owners",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:30"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:33"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_tokenApprovals",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:36"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_operatorApprovals",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:418"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:21"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:77"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\project:\\node_modules\\@openzeppelin\\contracts-upgradeable\\security\\ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "contract": "NFTT",
+            "label": "_tokenIds",
+            "type": "t_struct(Counter)1989_storage",
+            "src": "..\\project:\\contracts\\NFTT.sol:12"
+          },
+          {
+            "contract": "NFTT",
+            "label": "_tokenMeta",
+            "type": "t_mapping(t_uint256,t_struct(TokenMeta)70_storage)",
+            "src": "..\\project:\\contracts\\NFTT.sol:14"
+          },
+          {
+            "contract": "NFTT",
+            "label": "baseURI",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\NFTT.sol:16"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)1989_storage": {
+            "label": "struct CountersUpgradeable.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(TokenMeta)70_storage)": {
+            "label": "mapping(uint256 => struct NFTT.TokenMeta)"
+          },
+          "t_struct(TokenMeta)70_storage": {
             "label": "struct NFTT.TokenMeta",
             "members": [
               {

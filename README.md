@@ -19,6 +19,6 @@ Minting happens automatically when the Github Action is triggered manually, for 
 
 Donations in ETH or BTC are welcome 
 
-**ETH** `0xD20634a78Fa0e98104419a63C278648ccCff4Ce7`
+**ETH** `0x762f70367953aa0fE44C640bBa3FCccCCdC81b01`
 
-**BTC** `35pDYqWj5zyogGbNb15W44e9veu6899cZj`
+**BTC** `bc1qpn2qcdvsuxtpvxv7ec5mv2fycu60pp0ye8tnhx`

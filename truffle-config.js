@@ -24,15 +24,11 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      host: process.env.RPC_HOST, // Localhost (default: none)
+      host: "localhost", // Localhost (default: none)
       port: 7545,
       gas: 6721975,
       gasPrice: 20000000000,
-      network_id: 5777,
-      from: new HDWalletProvider(
-        process.env.KEY_MNEMONIC,
-        process.env.WALLET_PROVIDER_URL
-      ).getAddress(0),
+      network_id: 5777
     },
     // Another network with more advanced options...
     // advanced: {
